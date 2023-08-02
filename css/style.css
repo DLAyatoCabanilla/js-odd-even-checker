@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Fasthand&family=Oswald:wght@500&family=Pacifico&family=Poppins:ital@0;1&family=Quattrocento:wght@700&family=Roboto+Condensed:wght@700&family=Work+Sans&display=swap');
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+body
+{
+    display: grid;
+    place-content: center;
+    height: 90vh;
+}
+form
+{
+    border: 1px solid black;
+    width: max-content;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom right, white, green);
+}
+form h1
+{
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+form .display
+{
+    margin-top: 20px;
+    text-align: center;
+    height: 40px;
+    letter-spacing: 1.5px;
+    border-radius: 15px;
+    background-color: yellowgreen;
+    display: grid;
+    place-items: center;
+}
+form .input-container
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+form .input-container input, button
+{
+    width: 340px;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    outline: none;
+}
